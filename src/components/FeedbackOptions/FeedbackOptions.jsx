@@ -7,14 +7,17 @@ function capitalizeFirstLetter(string) {
 function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <div>
-      {options.map(el => {
+      {options.map((el, index) => {
+
+        // console.log(el)
 
         return (
           <button
+            name={el}
             type="button"            
-            key={el}
+            key={index}
             onClick={() => onLeaveFeedback(el)}
-          >
+          >            
             {capitalizeFirstLetter(el)}
           </button>
         );
