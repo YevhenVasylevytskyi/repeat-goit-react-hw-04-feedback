@@ -1,0 +1,7 @@
+.FeedbackOptions{
+    text-align: center;
+}
+
+.Button:not(:last-child) {
+    margin-right: 10px;
+}

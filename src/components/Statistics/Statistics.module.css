@@ -1,0 +1,10 @@
+.List {
+    padding-left: 0px;
+    margin: 0px 20px;    
+    font-size: 20px;
+}
+
+.Item{
+    display: flex;
+    justify-content: space-between;
+}
